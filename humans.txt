@@ -1,0 +1,22 @@
+/* TEAM */
+    Company: Geographics
+        From: Riverside, CA, USA
+	
+	Designer: Nicole Martlett
+        From: Lake Arrowhead, CA , USA
+        
+    Designer: Jeremy Heminger
+		Website: http://061375.com
+        From: Redlands, CA, USA
+        
+	Web Developer: Jeremy Heminger
+		Website: http://061375.com
+		From: Redlands, CA, USA
+		
+/* SITE */
+    Doctype: HTML5
+	Languages: PHP, Javascript
+	Framework: jQuery
+	Pre-compiler: Sass, Uglify 
+	IDE: Komodo Edit, FileZilla, Photoshop, Illustrator
+	Development Env: Grunt

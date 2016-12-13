@@ -66,6 +66,7 @@ error_reporting(E_ALL);
 <!DOCTYPE html>
 <html >
   <head>
+    <title>Freeway Service Patrol for Riverside County</title>
     <?php
     // make sure search engines don't compile this file or index it
     if(!isset($_POST['chgfysfuygf54fg'])) {
