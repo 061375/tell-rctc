@@ -8,7 +8,7 @@ error_reporting(E_ALL);
  * By Geographics
  * For credits please see /humans.txt
  *
- * When developing use the URL: /_/components/php/index.php?dev=true
+ * When developing use the URL: /_/assets/components/php/index.php?dev=true
  *
                                                                                             
                                                                                             
@@ -135,7 +135,7 @@ error_reporting(E_ALL);
                 <table>
                   <tr>
                     <td>
-                        <img src="/_/svg/up-arrow.svg" class="open" />
+                        <img src="/_/assets/svg/up-arrow.svg" class="open" />
                     </td>
                     <td>
                         <h5>
@@ -154,7 +154,7 @@ error_reporting(E_ALL);
                   <!-- -->
                   <tr>
                     <td>
-                        <img src="/_/svg/up-arrow.svg" class="closed" />
+                        <img src="/_/assets/svg/up-arrow.svg" class="closed" />
                     </td>
                     <td>
                         <h5>
@@ -173,7 +173,7 @@ error_reporting(E_ALL);
                   <!-- -->
                   <tr>
                     <td>
-                        <img src="/_/svg/up-arrow.svg" class="closed" />
+                        <img src="/_/assets/svg/up-arrow.svg" class="closed" />
                     </td>
                     <td>
                         <h5>
@@ -199,7 +199,7 @@ error_reporting(E_ALL);
                   <!-- -->
                   <tr>
                     <td>
-                        <img src="/_/svg/up-arrow.svg" class="closed" />
+                        <img src="/_/assets/svg/up-arrow.svg" class="closed" />
                     </td>
                     <td>
                         <h5>
@@ -218,7 +218,7 @@ error_reporting(E_ALL);
                   <!-- -->
                   <tr>
                     <td>
-                        <img src="/_/svg/up-arrow.svg" class="closed" />
+                        <img src="/_/assets/svg/up-arrow.svg" class="closed" />
                     </td>
                     <td>
                         <h5>
@@ -239,7 +239,7 @@ Friday - 5:30 a.m. to 8:30 a.m. and 1 p.m. to 7:00 p.m.
                   <!-- -->
                   <tr>
                     <td>
-                        <img src="/_/svg/up-arrow.svg" class="closed" />
+                        <img src="/_/assets/svg/up-arrow.svg" class="closed" />
                     </td>
                     <td>
                         <h5>
@@ -258,7 +258,7 @@ Friday - 5:30 a.m. to 8:30 a.m. and 1 p.m. to 7:00 p.m.
                   <!-- -->
                   <tr>
                     <td>
-                        <img src="/_/svg/up-arrow.svg" class="closed" />
+                        <img src="/_/assets/svg/up-arrow.svg" class="closed" />
                     </td>
                     <td>
                         <h5>
@@ -278,7 +278,7 @@ Friday - 5:30 a.m. to 8:30 a.m. and 1 p.m. to 7:00 p.m.
                   <!-- -->
                   <tr>
                     <td>
-                        <img src="/_/svg/up-arrow.svg" class="closed" />
+                        <img src="/_/assets/svg/up-arrow.svg" class="closed" />
                     </td>
                     <td>
                         <h5>
@@ -342,7 +342,7 @@ Friday - 5:30 a.m. to 8:30 a.m. and 1 p.m. to 7:00 p.m.
       ?>
     <?php
     }else{
-      ?><script src="/_/js/script.js?u=<?php echo date('YmdHis',strtotime('now')); ?>"></script><?php
+      ?><script src="/_/assets/js/script.js?u=<?php echo date('YmdHis',strtotime('now')); ?>"></script><?php
     } ?>
   </body>
 </html>
