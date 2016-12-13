@@ -229,7 +229,7 @@ body {
 .container {
   background: #fff;
   width: 100%;
-  max-width: 1100px;
+  max-width: 1000px;
   margin: auto; }
 
 /* line 1, ../components/sass/_header.scss */
@@ -237,63 +237,178 @@ body {
   background: url("/_/assets/header.jpg") no-repeat center; }
   /* line 3, ../components/sass/_header.scss */
   .header .logo {
-    position: relative; }
-    /* line 5, ../components/sass/_header.scss */
+    position: relative;
+    z-index: 999; }
+    /* line 6, ../components/sass/_header.scss */
     .header .logo .normal {
-      display: block;
       position: absolute;
-      left: 1%; }
-    /* line 10, ../components/sass/_header.scss */
+      left: 1%;
+      width: 21%;
+      display: block; }
+      @media screen and (max-width: 415px) {
+        /* line 6, ../components/sass/_header.scss */
+        .header .logo .normal {
+          display: none; } }
+    /* line 15, ../components/sass/_header.scss */
     .header .logo .mobile {
+      width: 100vw;
+      position: fixed;
+      bottom: 0;
       display: none; }
-  /* line 14, ../components/sass/_header.scss */
+      @media screen and (max-width: 415px) {
+        /* line 15, ../components/sass/_header.scss */
+        .header .logo .mobile {
+          display: block; } }
+  /* line 25, ../components/sass/_header.scss */
   .header .title {
-    width: 66%;
     float: right;
-    margin: 0 0px 0 20px;
-    color: #fff; }
-    /* line 19, ../components/sass/_header.scss */
+    color: #fff;
+    width: 72%;
+    margin: 0 35px 0 20px; }
+    @media screen and (max-width: 415px) {
+      /* line 25, ../components/sass/_header.scss */
+      .header .title {
+        width: 99%;
+        margin: 0; } }
+    /* line 34, ../components/sass/_header.scss */
     .header .title h1 {
-      font-size: 4em;
-      margin: 20px 0 0 0;
+      margin: 20px 0 0 30px;
       font-weight: normal;
-      padding: 0; }
-    /* line 25, ../components/sass/_header.scss */
+      padding: 0;
+      letter-spacing: 2px;
+      font-size: 3em; }
+      @media screen and (max-width: 811px) {
+        /* line 34, ../components/sass/_header.scss */
+        .header .title h1 {
+          font-size: 2.6em; } }
+      @media screen and (max-width: 602px) {
+        /* line 34, ../components/sass/_header.scss */
+        .header .title h1 {
+          font-size: 2em; } }
+      @media screen and (max-width: 415px) {
+        /* line 34, ../components/sass/_header.scss */
+        .header .title h1 {
+          margin: 10px; } }
+      @media screen and (max-width: 376px) {
+        /* line 34, ../components/sass/_header.scss */
+        .header .title h1 {
+          font-size: 1.7em; } }
+    /* line 53, ../components/sass/_header.scss */
     .header .title h2 {
-      font-size: 4em;
-      margin: 0; }
-    /* line 29, ../components/sass/_header.scss */
+      margin: 0 0 0 29px;
+      letter-spacing: 3.7px;
+      font-size: 3em; }
+      @media screen and (max-width: 811px) {
+        /* line 53, ../components/sass/_header.scss */
+        .header .title h2 {
+          font-size: 2.6em; } }
+      @media screen and (max-width: 602px) {
+        /* line 53, ../components/sass/_header.scss */
+        .header .title h2 {
+          font-size: 2em; } }
+      @media screen and (max-width: 415px) {
+        /* line 53, ../components/sass/_header.scss */
+        .header .title h2 {
+          margin: 10px; } }
+      @media screen and (max-width: 376px) {
+        /* line 53, ../components/sass/_header.scss */
+        .header .title h2 {
+          font-size: 1.7em; } }
+    /* line 70, ../components/sass/_header.scss */
     .header .title h3 {
-      margin: 10px 0 15px 0;
+      margin: 10px 0 15px 30px;
       font-weight: normal;
-      font-size: 2.5em; }
+      font-size: 2em; }
+      @media screen and (max-width: 811px) {
+        /* line 70, ../components/sass/_header.scss */
+        .header .title h3 {
+          font-size: 1.5em; } }
+      @media screen and (max-width: 602px) {
+        /* line 70, ../components/sass/_header.scss */
+        .header .title h3 {
+          font-size: 1.3em; } }
+      @media screen and (max-width: 376px) {
+        /* line 70, ../components/sass/_header.scss */
+        .header .title h3 {
+          font-size: 1em; } }
+    /* line 84, ../components/sass/_header.scss */
+    .header .title .hr {
+      width: 90%;
+      margin-left: 28px; }
+      @media screen and (max-width: 415px) {
+        /* line 84, ../components/sass/_header.scss */
+        .header .title .hr {
+          margin-left: 16px; } }
 
 /* line 1, ../components/sass/_sidebar.scss */
 .sidebar {
   float: left;
-  width: 30%;
-  padding-top: 20em; }
-  /* line 5, ../components/sass/_sidebar.scss */
+  width: 25%;
+  padding-top: 22%; }
+  @media screen and (max-width: 880px) {
+    /* line 1, ../components/sass/_sidebar.scss */
+    .sidebar {
+      padding-top: 19%; } }
+  @media screen and (max-width: 602px) {
+    /* line 1, ../components/sass/_sidebar.scss */
+    .sidebar {
+      width: 78%;
+      padding-top: 0;
+      float: right; } }
+  @media screen and (max-width: 415px) {
+    /* line 1, ../components/sass/_sidebar.scss */
+    .sidebar {
+      width: 100%; } }
+  /* line 16, ../components/sass/_sidebar.scss */
   .sidebar img {
     width: 100%; }
+    /* line 18, ../components/sass/_sidebar.scss */
+    .sidebar img.normal {
+      display: block; }
+      @media screen and (max-width: 602px) {
+        /* line 18, ../components/sass/_sidebar.scss */
+        .sidebar img.normal {
+          display: none; } }
+    /* line 24, ../components/sass/_sidebar.scss */
+    .sidebar img.mobile {
+      display: none; }
+      @media screen and (max-width: 602px) {
+        /* line 24, ../components/sass/_sidebar.scss */
+        .sidebar img.mobile {
+          display: block; } }
 
 /* line 1, ../components/sass/_main.scss */
 .main {
-  width: 70%;
+  width: 75%;
   float: right; }
-  /* line 4, ../components/sass/_main.scss */
+  @media screen and (max-width: 602px) {
+    /* line 1, ../components/sass/_main.scss */
+    .main {
+      width: 100%; } }
+  /* line 7, ../components/sass/_main.scss */
   .main .buttons {
     background: #245ca9;
     padding: 20px 10px;
-    width: 90%;
+    width: 92%;
     margin: 20px auto; }
-    /* line 9, ../components/sass/_main.scss */
+    @media screen and (max-width: 415px) {
+      /* line 7, ../components/sass/_main.scss */
+      .main .buttons {
+        width: 100%;
+        margin: auto;
+        padding: 20px 0; } }
+    /* line 17, ../components/sass/_main.scss */
     .main .buttons .button {
       background: url(/_/assets/button.png) center no-repeat;
       float: left;
       width: 40%;
       margin: 0 5%; }
-      /* line 14, ../components/sass/_main.scss */
+      @media screen and (max-width: 415px) {
+        /* line 17, ../components/sass/_main.scss */
+        .main .buttons .button {
+          width: 100%;
+          margin: 10px 10px 10px 0px; } }
+      /* line 26, ../components/sass/_main.scss */
       .main .buttons .button a {
         text-decoration: none;
         float: right;
@@ -301,65 +416,115 @@ body {
         text-align: center;
         font-weight: bold;
         color: #245ca9;
-        font-size: 20px; }
-        /* line 22, ../components/sass/_main.scss */
+        font-size: 20px;
+        width: initial; }
+        /* line 35, ../components/sass/_main.scss */
         .main .buttons .button a:visited {
           color: #245ca9; }
-        /* line 25, ../components/sass/_main.scss */
+        /* line 38, ../components/sass/_main.scss */
         .main .buttons .button a span {
           font-weight: normal;
           font-size: 19px; }
-  /* line 32, ../components/sass/_main.scss */
+        @media screen and (max-width: 602px) {
+          /* line 26, ../components/sass/_main.scss */
+          .main .buttons .button a {
+            margin: 2px 15% 2px 0; } }
+        @media screen and (max-width: 415px) {
+          /* line 26, ../components/sass/_main.scss */
+          .main .buttons .button a {
+            width: 100%;
+            margin: 10px auto; } }
+  /* line 52, ../components/sass/_main.scss */
   .main .questions {
     margin: 3em;
     color: #245ca9; }
-    /* line 35, ../components/sass/_main.scss */
-    .main .questions .hr {
-      margin-bottom: 30px; }
-    /* line 38, ../components/sass/_main.scss */
-    .main .questions h4 {
-      font-size: 2em;
-      margin: 0; }
-    /* line 43, ../components/sass/_main.scss */
-    .main .questions h5 {
-      font-size: 1.5em;
-      clear: both;
-      margin: 15px 0 5px 0; }
-      /* line 47, ../components/sass/_main.scss */
-      .main .questions h5 img {
-        width: 20px;
-        margin-right: 3px;
-        transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-        transform: rotate(90deg); }
-        /* line 52, ../components/sass/_main.scss */
-        .main .questions h5 img.open {
-          transform: rotate(180deg); }
+    @media screen and (max-width: 415px) {
+      /* line 52, ../components/sass/_main.scss */
+      .main .questions {
+        margin: 2em; } }
     /* line 58, ../components/sass/_main.scss */
+    .main .questions .hr {
+      margin-bottom: 10px; }
+    /* line 61, ../components/sass/_main.scss */
+    .main .questions h4 {
+      font-size: 1.3em;
+      margin: 0; }
+      @media screen and (max-width: 415px) {
+        /* line 61, ../components/sass/_main.scss */
+        .main .questions h4 {
+          font-size: 1.2em; } }
+    /* line 68, ../components/sass/_main.scss */
+    .main .questions h5 {
+      font-size: 1em;
+      clear: both;
+      margin: 15px 0 5px 0;
+      cursor: pointer;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none; }
+    /* line 75, ../components/sass/_main.scss */
     .main .questions div.hidden {
-      width: 95%;
-      float: right;
       margin-bottom: 5px; }
+    /* line 79, ../components/sass/_main.scss */
+    .main .questions td img {
+      width: 15px;
+      margin-right: 3px;
+      margin-top: 12px;
+      transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+      transform: rotate(90deg); }
+      /* line 85, ../components/sass/_main.scss */
+      .main .questions td img.open {
+        transform: rotate(180deg); }
+
+/* line 93, ../components/sass/_main.scss */
+img.thank-you {
+  width: 100%; }
 
 /* line 1, ../components/sass/_footer.scss */
 .subfooter {
   float: right;
-  width: 67%;
-  position: relative; }
-  /* line 5, ../components/sass/_footer.scss */
+  width: 72%;
+  position: relative;
+  margin: inherit; }
+  @media screen and (max-width: 820px) {
+    /* line 1, ../components/sass/_footer.scss */
+    .subfooter {
+      width: 99%; } }
+  @media screen and (max-width: 415px) {
+    /* line 1, ../components/sass/_footer.scss */
+    .subfooter {
+      width: 98%;
+      margin: 20px 0; } }
+  /* line 13, ../components/sass/_footer.scss */
   .subfooter p {
     position: absolute;
-    top: -50px;
-    color: red;
+    top: -56px;
     font-size: 12px; }
+    @media screen and (max-width: 602px) {
+      /* line 13, ../components/sass/_footer.scss */
+      .subfooter p {
+        font-size: 10px; } }
 
-/* line 12, ../components/sass/_footer.scss */
+/* line 22, ../components/sass/_footer.scss */
 .footer {
   background: #245ca9;
   color: #fff;
   margin: -5px 0;
-  padding: 20px 5%; }
-  /* line 17, ../components/sass/_footer.scss */
+  padding: 20px 5%;
+  height: inherit; }
+  @media screen and (max-width: 415px) {
+    /* line 22, ../components/sass/_footer.scss */
+    .footer {
+      height: 230px; } }
+  /* line 31, ../components/sass/_footer.scss */
   .footer h4 {
     margin: 0;
     font-size: 1.3em;
     font-weight: normal; }
+    @media screen and (max-width: 415px) {
+      /* line 31, ../components/sass/_footer.scss */
+      .footer h4 {
+        font-size: 1em; } }

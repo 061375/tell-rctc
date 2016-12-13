@@ -1,0 +1,2 @@
+<meta name="viewport" content="width=device, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="/_/css/style.css?u=<?php echo date('YmdHis',strtotime('now')); ?>" />

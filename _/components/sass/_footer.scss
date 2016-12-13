@@ -1,12 +1,22 @@
 .subfooter {
     float: right;
-    width: 67%;
+    width: 72%;
     position: relative;
+    margin: inherit;
+    @include break (820px){
+        width: 99%;
+    }
+    @include break (415px){
+        width: 98%;
+        margin: 20px 0;
+    }
     p {
         position: absolute;
-        top: -50px;
-        color: red;
+        top: -56px;
         font-size: 12px;
+        @include break (602px){
+            font-size: 10px;
+        }
     }
 }
 .footer {
@@ -14,9 +24,16 @@
     color: #fff;
     margin: -5px 0;
     padding: 20px 5%;
+    height: inherit;
+    @include break (415px){
+        height: 230px;
+    }
     h4 {
         margin: 0;
         font-size: 1.3em;
-        font-weight: normal; 
+        font-weight: normal;
+        @include break (415px){
+            font-size: 1em;
+        }
     }
 }

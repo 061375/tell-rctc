@@ -1,8 +1,31 @@
 .sidebar {
     float: left;
-    width: 30%;
-    padding-top: 20em;
+    width: 25%;
+    padding-top: 22%;
+    @include break (880px){
+        padding-top: 19%;
+    }
+    @include break (602px){
+        width: 78%;
+        padding-top: 0;
+        float: right;
+    }
+    @include break (415px){
+        width: 100%;
+    }
     img {
         width: 100%;
+        &.normal {
+            display: block;
+            @include break (602px){
+                display: none;
+            }
+        }
+        &.mobile {
+            display: none;
+            @include break (602px){
+                display: block;
+            }
+        }
     }
 }

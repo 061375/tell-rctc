@@ -1,16 +1,28 @@
 .main {
-    width: 70%;
+    width: 75%;
+    @include break (602px){
+        width: 100%;
+    }
     float: right;
     .buttons {
         background: #245ca9;
         padding: 20px 10px;
-        width: 90%;
+        width: 92%;
         margin: 20px auto;
+        @include break (415px){
+            width: 100%;
+            margin: auto;
+            padding: 20px 0;
+        }
         .button {
             background: url(/_/assets/button.png) center no-repeat;
             float: left;
             width: 40%;
             margin: 0 5%;
+            @include break (415px){
+                width: 100%;
+                margin: 10px 10px 10px 0px;
+            }
             a {
                 text-decoration: none;
                 float: right;
@@ -19,6 +31,7 @@
                 font-weight: bold;
                 color: #245ca9;
                 font-size: 20px;
+                width: initial;
                 &:visited {
                     color: #245ca9;
                 }
@@ -26,27 +39,47 @@
                     font-weight: normal;
                     font-size: 19px;
                 }
+                @include break (602px){
+                    margin: 2px 15% 2px 0;
+                }
+                @include break (415px){
+                    width: 100%;
+                    margin: 10px auto;
+                }
             }
         }
     }
     .questions {
         margin: 3em;
+        @include break (415px){
+            margin: 2em;
+        }
         color: #245ca9;
         .hr {
-            margin-bottom: 30px;
+            margin-bottom: 10px;
         }
         h4 {
-            
-            font-size: 2em;
+            font-size: 1.3em;
             margin: 0;
+            @include break (415px){
+                font-size: 1.2em;
+            }
         }
         h5 {
-            font-size: 1.5em;
+            font-size: 1em;
             clear: both;
             margin: 15px 0 5px 0;
+            cursor: pointer;
+            @include noselect;
+        }
+        div.hidden {
+            margin-bottom: 5px;
+        }
+        td {
             img {
-                width: 20px;
+                width: 15px;
                 margin-right: 3px;
+                margin-top: 12px;
                 @include easeOut;
                 transform: rotate(90deg);
                 &.open {
@@ -55,10 +88,8 @@
                 
             }
         }
-        div.hidden {
-            width: 95%;
-            float: right;
-            margin-bottom: 5px;
-        }
     }
+}
+img.thank-you {
+    width: 100%;
 }
