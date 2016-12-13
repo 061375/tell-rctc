@@ -1,0 +1,22 @@
+.subfooter {
+    float: right;
+    width: 67%;
+    position: relative;
+    p {
+        position: absolute;
+        top: -50px;
+        color: red;
+        font-size: 12px;
+    }
+}
+.footer {
+    background: #245ca9;
+    color: #fff;
+    margin: -5px 0;
+    padding: 20px 5%;
+    h4 {
+        margin: 0;
+        font-size: 1.3em;
+        font-weight: normal; 
+    }
+}

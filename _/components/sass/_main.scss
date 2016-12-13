@@ -1,0 +1,64 @@
+.main {
+    width: 70%;
+    float: right;
+    .buttons {
+        background: #245ca9;
+        padding: 20px 10px;
+        width: 90%;
+        margin: 20px auto;
+        .button {
+            background: url(/_/assets/button.png) center no-repeat;
+            float: left;
+            width: 40%;
+            margin: 0 5%;
+            a {
+                text-decoration: none;
+                float: right;
+                margin: 2px 20% 2px 0;
+                text-align: center;
+                font-weight: bold;
+                color: #245ca9;
+                font-size: 20px;
+                &:visited {
+                    color: #245ca9;
+                }
+                span {
+                    font-weight: normal;
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+    .questions {
+        margin: 3em;
+        color: #245ca9;
+        .hr {
+            margin-bottom: 30px;
+        }
+        h4 {
+            
+            font-size: 2em;
+            margin: 0;
+        }
+        h5 {
+            font-size: 1.5em;
+            clear: both;
+            margin: 15px 0 5px 0;
+            img {
+                width: 20px;
+                margin-right: 3px;
+                @include easeOut;
+                transform: rotate(90deg);
+                &.open {
+                    transform: rotate(180deg);
+                }
+                
+            }
+        }
+        div.hidden {
+            width: 95%;
+            float: right;
+            margin-bottom: 5px;
+        }
+    }
+}

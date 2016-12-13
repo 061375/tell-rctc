@@ -1,0 +1,18 @@
+.fltleft {float: left}
+.fltright {float: right}
+.clear {clear: both}
+.hidden {
+    display: none;
+    &.not {
+        display: block;
+    }
+}
+.opaque {opacity: 0}
+.clearfix:after {
+  overflow: auto;
+  zoom: 1;
+}
+.hr {
+    height: 5px;
+    background: #6a9f4d;
+}
