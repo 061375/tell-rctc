@@ -231,8 +231,8 @@ error_reporting(E_ALL);
                     <td>
                       <div class="hidden">
                         Service is provided Monday through Friday (except on holidays): 
-Monday - Thursday - 5:30 a.m. to 8:30 a.m. and 3 p.m. to 7:00 p.m. 
-Friday - 5:30 a.m. to 8:30 a.m. and 1 p.m. to 7:00 p.m.
+Monday - Thursday - 5:30 a.m. to 8:30 a.m. and 2:30 p.m. to 6:30 p.m. 
+Friday - 5:30 a.m. to 8:30 a.m. and 12:30 p.m. to 6:30 p.m.
                       </div>
                     </td>
                   </tr>

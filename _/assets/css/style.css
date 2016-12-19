@@ -242,7 +242,7 @@ body {
     /* line 6, ../../components/sass/_header.scss */
     .header .logo .normal {
       position: absolute;
-      left: 1%;
+      left: 1.4%;
       width: 21%;
       display: block; }
       @media screen and (max-width: 415px) {
