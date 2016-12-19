@@ -80,7 +80,7 @@ error_reporting(E_ALL);
   </head>
   <body itemscope itemtype="https://schema.org/WebPage">
     <div class="container">
-        <img src="/_/assets/thank-you.jpg" alt="Thank You for Submitting from RCTC" class="thank-you" />  
+        <img src="/_/assets/thank-you.jpg?u=<?php echo date('is',strtotime('now')); ?>" alt="Thank You for Submitting from RCTC" class="thank-you" />  
     </div>
     <!-- SCHEMA -->
     <?php include('schema.org.php'); ?>

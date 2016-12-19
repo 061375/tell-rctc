@@ -82,8 +82,8 @@ error_reporting(E_ALL);
     <div class="container">
         <div class="header">
             <div class="logo">
-                <img src="/_/assets/logo.png" alt="Free Way Service Patrol and RCT 40th Anniversary" class="normal" />
-                <img src="/_/assets/logo.mobile.png" alt="Free Way Service Patrol and RCTC 40th Anniversary" class="mobile" />
+                <img src="/_/assets/logo.png?u=<?php echo date('is',strtotime('now')); ?>" alt="Free Way Service Patrol and RCT 40th Anniversary" class="normal" />
+                <img src="/_/assets/logo.mobile.png?u=<?php echo date('is',strtotime('now')); ?>" alt="Free Way Service Patrol and RCTC 40th Anniversary" class="mobile" />
             </div>
             <div class="title">
                 <h1>
@@ -102,8 +102,8 @@ error_reporting(E_ALL);
             <div class="clear"></div>
         </div>
         <div class="sidebar">
-            <img src="/_/assets/sidebar.jpg" class="normal" />
-            <img src="/_/assets/sidebar.mobile.jpg" class="mobile" />
+            <img src="/_/assets/sidebar.jpg?u=<?php echo date('is',strtotime('now')); ?>" class="normal" alt="tow-truck driver assisting stranded motorist" />
+            <img src="/_/assets/sidebar.mobile.jpg?u=<?php echo date('is',strtotime('now')); ?>" class="mobile" alt="tow-truck driver assisting stranded motorist" />
         </div>
         <div class="main">
             <div class="buttons">
@@ -135,7 +135,7 @@ error_reporting(E_ALL);
                 <table>
                   <tr>
                     <td>
-                        <img src="/_/assets/svg/up-arrow.svg" class="open" />
+                        <img src="/_/assets/svg/up-arrow.svg?u=<?php echo date('is',strtotime('now')); ?>" class="open" />
                     </td>
                     <td>
                         <h5>
@@ -154,7 +154,7 @@ error_reporting(E_ALL);
                   <!-- -->
                   <tr>
                     <td>
-                        <img src="/_/assets/svg/up-arrow.svg" class="closed" />
+                        <img src="/_/assets/svg/up-arrow.svg?u=<?php echo date('is',strtotime('now')); ?>" class="closed" />
                     </td>
                     <td>
                         <h5>
@@ -173,7 +173,7 @@ error_reporting(E_ALL);
                   <!-- -->
                   <tr>
                     <td>
-                        <img src="/_/assets/svg/up-arrow.svg" class="closed" />
+                        <img src="/_/assets/svg/up-arrow.svg?u=<?php echo date('is',strtotime('now')); ?>" class="closed" />
                     </td>
                     <td>
                         <h5>
@@ -199,7 +199,7 @@ error_reporting(E_ALL);
                   <!-- -->
                   <tr>
                     <td>
-                        <img src="/_/assets/svg/up-arrow.svg" class="closed" />
+                        <img src="/_/assets/svg/up-arrow.svg?u=<?php echo date('is',strtotime('now')); ?>" class="closed" alt="caret" />
                     </td>
                     <td>
                         <h5>
@@ -218,7 +218,7 @@ error_reporting(E_ALL);
                   <!-- -->
                   <tr>
                     <td>
-                        <img src="/_/assets/svg/up-arrow.svg" class="closed" />
+                        <img src="/_/assets/svg/up-arrow.svg?u=<?php echo date('is',strtotime('now')); ?>" class="closed" alt="caret" />
                     </td>
                     <td>
                         <h5>
@@ -239,7 +239,7 @@ Friday - 5:30 a.m. to 8:30 a.m. and 12:30 p.m. to 6:30 p.m.
                   <!-- -->
                   <tr>
                     <td>
-                        <img src="/_/assets/svg/up-arrow.svg" class="closed" />
+                        <img src="/_/assets/svg/up-arrow.svg?u=<?php echo date('is',strtotime('now')); ?>" class="closed" alt="caret" />
                     </td>
                     <td>
                         <h5>
@@ -258,7 +258,7 @@ Friday - 5:30 a.m. to 8:30 a.m. and 12:30 p.m. to 6:30 p.m.
                   <!-- -->
                   <tr>
                     <td>
-                        <img src="/_/assets/svg/up-arrow.svg" class="closed" />
+                        <img src="/_/assets/svg/up-arrow.svg?u=<?php echo date('is',strtotime('now')); ?>" class="closed" alt="caret" />
                     </td>
                     <td>
                         <h5>
@@ -278,7 +278,7 @@ Friday - 5:30 a.m. to 8:30 a.m. and 12:30 p.m. to 6:30 p.m.
                   <!-- -->
                   <tr>
                     <td>
-                        <img src="/_/assets/svg/up-arrow.svg" class="closed" />
+                        <img src="/_/assets/svg/up-arrow.svg?u=<?php echo date('is',strtotime('now')); ?>" class="closed" alt="caret" />
                     </td>
                     <td>
                         <h5>
@@ -342,7 +342,7 @@ Friday - 5:30 a.m. to 8:30 a.m. and 12:30 p.m. to 6:30 p.m.
       ?>
     <?php
     }else{
-      ?><script src="/_/assets/js/script.js?u=<?php echo date('YmdHis',strtotime('now')); ?>"></script><?php
+      ?><script src="/_/assets/js/script.js?u=<?php echo date('is',strtotime('now')); ?>"></script><?php
     } ?>
   </body>
 </html>
