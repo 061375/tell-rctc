@@ -1,11 +1,17 @@
 .sidebar {
     div {
         color: #245ca9;
-        margin: 20px;
+        margin: 20px 20px 0 25px;
+        h3 {
+            margin: 5px 0;
+        }
+        p {
+            margin: 0;
+        }
     }
     float: left;
     width: 25%;
-    padding-top: 15%;
+    padding-top: 16%;
     @include break (880px){
         padding-top: 19%;
     }

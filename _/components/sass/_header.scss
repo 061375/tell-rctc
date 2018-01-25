@@ -33,7 +33,7 @@
             margin: 0;
         }
         h1 {
-            margin: 20px 0 0 50px;
+            margin: 20px 0 0 30px;
             font-weight: normal;
             padding: 0;
             letter-spacing: 2px;
@@ -52,7 +52,7 @@
             }
         }
         h2 {
-            margin: 0 0 0 50px;
+            margin: 0 0 0 30px;
             letter-spacing: 3.7px;
             font-size: 3em;
             @include break (811px){
@@ -69,7 +69,7 @@
             }
         }
         h3 {
-            margin: 0px 0 10px 50px;
+            margin: 0px 0 10px 30px;
             font-weight: normal;
             font-size: 1.5em;
             @include break (811px){

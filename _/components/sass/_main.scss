@@ -7,7 +7,7 @@
     .buttons {
         background: #245ca9;
         padding: 20px 10px;
-        width: 84%;
+        width: 90%;
         margin: 20px auto;
         @include break (415px){
             width: 100%;
@@ -50,7 +50,7 @@
         }
     }
     .questions {
-        margin: 0 3em;
+        margin: 0 1.6em;
         @include break (415px){
             margin: 2em;
         }

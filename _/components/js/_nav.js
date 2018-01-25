@@ -10,7 +10,7 @@ var Nav = (function() {
     
     "use strict";
 
-    var acc = $('.main .questions h5');
+    var acc = $('.main .questions h5,.main .questions img');
     
     /**
     * toggle
