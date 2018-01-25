@@ -71,6 +71,7 @@ if(!isset($_POST['chgfysfuygf54fg'])) {
         $file_ = str_replace('.php','.html',$file);
     }
     $result = compress(simpleCurl(PURL.'/_/components/php/'.$file,array('chgfysfuygf54fg'=>1)));
+    
     if(false !== file_put_contents(PDIR.$file_,$result)) {
         // success
     }else{

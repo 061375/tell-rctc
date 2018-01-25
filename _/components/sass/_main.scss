@@ -7,7 +7,7 @@
     .buttons {
         background: #245ca9;
         padding: 20px 10px;
-        width: 92%;
+        width: 84%;
         margin: 20px auto;
         @include break (415px){
             width: 100%;
@@ -15,7 +15,7 @@
             padding: 20px 0;
         }
         .button {
-            background: url(/_/assets/button.png) center no-repeat;
+            background: url(/_/assets/button.2018.png) center no-repeat;
             float: left;
             width: 40%;
             margin: 0 5%;
@@ -50,7 +50,7 @@
         }
     }
     .questions {
-        margin: 3em;
+        margin: 0 3em;
         @include break (415px){
             margin: 2em;
         }
@@ -60,7 +60,7 @@
         }
         h4 {
             font-size: 1.3em;
-            margin: 0;
+            margin: 10px 0;
             @include break (415px){
                 font-size: 1.2em;
             }
@@ -68,18 +68,21 @@
         h5 {
             font-size: 1em;
             clear: both;
-            margin: 15px 0 5px 0;
+            margin: 0px 0 5px 0;
             cursor: pointer;
             @include noselect;
         }
-        div.hidden {
-            margin-bottom: 5px;
+        div {
+            font-size: 14px;
+            &.hidden {
+                margin-bottom: 5px;
+            }
         }
         td {
             img {
                 width: 15px;
                 margin-right: 3px;
-                margin-top: 12px;
+                margin-top: 0;//12px;
                 @include easeOut;
                 transform: rotate(90deg);
                 &.open {

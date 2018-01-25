@@ -1,7 +1,11 @@
 .sidebar {
+    div {
+        color: #245ca9;
+        margin: 20px;
+    }
     float: left;
     width: 25%;
-    padding-top: 22%;
+    padding-top: 15%;
     @include break (880px){
         padding-top: 19%;
     }

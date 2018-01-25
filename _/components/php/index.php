@@ -1,6 +1,8 @@
 <?php
-define('PDIR','/Applications/MAMP/htdocs/tellrctc/blank_project/');
-define('PURL','http://localhost/tellrctc/blank_project');
+//define('PDIR','/Applications/MAMP/htdocs/tellrctc/blank_project/');
+define('PDIR','/var/www/html/tell-rctc/');
+//define('PURL','http://192.168.1.159/tellrctc/blank_project');
+define('PURL','http://192.168.1.159');
 ini_set('display_errors', 1); 
 error_reporting(E_ALL);
 /**
@@ -70,7 +72,7 @@ error_reporting(E_ALL);
     <?php
     // make sure search engines don't compile this file or index it
     if(!isset($_POST['chgfysfuygf54fg'])) {
-    $whitelist = array('::1','127.0.0.1');
+    $whitelist = array('::1','127.0.0.1','192.168.1.160');
     
     if(!isset($_SERVER['REMOTE_ADDR']))die('<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">');
     if(!in_array($_SERVER['REMOTE_ADDR'],$whitelist))die('<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">');
@@ -82,8 +84,8 @@ error_reporting(E_ALL);
     <div class="container">
         <div class="header">
             <div class="logo">
-                <img src="/_/assets/logo.png?u=<?php echo date('is',strtotime('now')); ?>" alt="Free Way Service Patrol and RCT 40th Anniversary" class="normal" />
-                <img src="/_/assets/logo.mobile.png?u=<?php echo date('is',strtotime('now')); ?>" alt="Free Way Service Patrol and RCTC 40th Anniversary" class="mobile" />
+                <img src="/_/assets/sidelogos.2018.png?u=<?php echo date('is',strtotime('now')); ?>" alt="Free Way Service Patrol and RCT 40th Anniversary" class="normal" />
+                <img src="/_/assets/logo.mobile.2018.png?u=<?php echo date('is',strtotime('now')); ?>" alt="Free Way Service Patrol and RCTC 40th Anniversary" class="mobile" />
             </div>
             <div class="title">
                 <h1>
@@ -102,8 +104,14 @@ error_reporting(E_ALL);
             <div class="clear"></div>
         </div>
         <div class="sidebar">
-            <img src="/_/assets/sidebar.jpg?u=<?php echo date('is',strtotime('now')); ?>" class="normal" alt="tow-truck driver assisting stranded motorist" />
-            <img src="/_/assets/sidebar.mobile.jpg?u=<?php echo date('is',strtotime('now')); ?>" class="mobile" alt="tow-truck driver assisting stranded motorist" />
+            <div>
+                  <h3>SPECIAL WEEKEND FSP SERVICE</h3>
+                  <p>provided on the SR-91 (Orange County line to I-15) is sponsored by</p>
+                  
+            </div>
+            <img src="/_/assets/CTFLogo2017.png?u=<?php echo date('is',strtotime('now')); ?>" alt="Clean Transportation from the MSRC" />
+            <!--img src="/_/assets/sidebar.jpg?u=<?php echo date('is',strtotime('now')); ?>" class="normal" alt="tow-truck driver assisting stranded motorist" />
+            <img src="/_/assets/sidebar.mobile.jpg?u=<?php echo date('is',strtotime('now')); ?>" class="mobile" alt="tow-truck driver assisting stranded motorist" /-->
         </div>
         <div class="main">
             <div class="buttons">
@@ -135,7 +143,7 @@ error_reporting(E_ALL);
                 <table>
                   <tr>
                     <td>
-                        <img src="/_/assets/svg/up-arrow.svg?u=<?php echo date('is',strtotime('now')); ?>" class="open" />
+                        <img src="/_/assets/up-arrow.2018.png?u=<?php echo date('is',strtotime('now')); ?>" class="open" />
                     </td>
                     <td>
                         <h5>
@@ -154,7 +162,7 @@ error_reporting(E_ALL);
                   <!-- -->
                   <tr>
                     <td>
-                        <img src="/_/assets/svg/up-arrow.svg?u=<?php echo date('is',strtotime('now')); ?>" class="closed" />
+                        <img src="/_/assets/up-arrow.2018.png?u=<?php echo date('is',strtotime('now')); ?>" class="closed" />
                     </td>
                     <td>
                         <h5>
@@ -173,7 +181,7 @@ error_reporting(E_ALL);
                   <!-- -->
                   <tr>
                     <td>
-                        <img src="/_/assets/svg/up-arrow.svg?u=<?php echo date('is',strtotime('now')); ?>" class="closed" />
+                        <img src="/_/assets/up-arrow.2018.png?u=<?php echo date('is',strtotime('now')); ?>" class="closed" />
                     </td>
                     <td>
                         <h5>
@@ -199,7 +207,7 @@ error_reporting(E_ALL);
                   <!-- -->
                   <tr>
                     <td>
-                        <img src="/_/assets/svg/up-arrow.svg?u=<?php echo date('is',strtotime('now')); ?>" class="closed" alt="caret" />
+                        <img src="/_/assets/up-arrow.2018.png?u=<?php echo date('is',strtotime('now')); ?>" class="closed" alt="caret" />
                     </td>
                     <td>
                         <h5>
@@ -218,7 +226,7 @@ error_reporting(E_ALL);
                   <!-- -->
                   <tr>
                     <td>
-                        <img src="/_/assets/svg/up-arrow.svg?u=<?php echo date('is',strtotime('now')); ?>" class="closed" alt="caret" />
+                        <img src="/_/assets/up-arrow.2018.png?u=<?php echo date('is',strtotime('now')); ?>" class="closed" alt="caret" />
                     </td>
                     <td>
                         <h5>
@@ -239,7 +247,7 @@ Friday - 5:30 a.m. to 8:30 a.m. and 12:30 p.m. to 6:30 p.m.
                   <!-- -->
                   <tr>
                     <td>
-                        <img src="/_/assets/svg/up-arrow.svg?u=<?php echo date('is',strtotime('now')); ?>" class="closed" alt="caret" />
+                        <img src="/_/assets/up-arrow.2018.png?u=<?php echo date('is',strtotime('now')); ?>" class="closed" alt="caret" />
                     </td>
                     <td>
                         <h5>
@@ -258,7 +266,7 @@ Friday - 5:30 a.m. to 8:30 a.m. and 12:30 p.m. to 6:30 p.m.
                   <!-- -->
                   <tr>
                     <td>
-                        <img src="/_/assets/svg/up-arrow.svg?u=<?php echo date('is',strtotime('now')); ?>" class="closed" alt="caret" />
+                        <img src="/_/assets/up-arrow.2018.png?u=<?php echo date('is',strtotime('now')); ?>" class="closed" alt="caret" />
                     </td>
                     <td>
                         <h5>
@@ -278,7 +286,7 @@ Friday - 5:30 a.m. to 8:30 a.m. and 12:30 p.m. to 6:30 p.m.
                   <!-- -->
                   <tr>
                     <td>
-                        <img src="/_/assets/svg/up-arrow.svg?u=<?php echo date('is',strtotime('now')); ?>" class="closed" alt="caret" />
+                        <img src="/_/assets/up-arrow.2018.png?u=<?php echo date('is',strtotime('now')); ?>" class="closed" alt="caret" />
                     </td>
                     <td>
                         <h5>
@@ -299,11 +307,13 @@ Friday - 5:30 a.m. to 8:30 a.m. and 12:30 p.m. to 6:30 p.m.
             <div class="clear"></div>
         </div>
         <div class="clear"></div>
-        <div class="subfooter">
+        <img src="/_/assets/footer.2018.png?u=<?php echo date('is',strtotime('now')); ?>" class="footer-img" alt="tow-truck driver assisting stranded motorist" />
+        <div class="clear"></div>
+        <!--div class="subfooter">
             <p>
                 For administrative issues regarding the Riverside County Freeway Service Patrol please call the FSP Business Office at (909) 388-8040.  Please note that motorists cannot request FSP service through the FSP Business Office or the FSP website. Thank you.
             </p>
-        </div>
+        </div-->
         <div class="clear"></div>
         <div class="footer">
             <h4>
@@ -324,7 +334,7 @@ Friday - 5:30 a.m. to 8:30 a.m. and 12:30 p.m. to 6:30 p.m.
      * - Jeremy
      * */
     ?>
-    <script src="http://localhost:35729/livereload.js"></script>
+    <!--script src="http://192.168.1:35729/livereload.js"></script-->
     <!-- All the javascript should be called from this one minified script - use Grunt -->
     <?php
     // For development use 

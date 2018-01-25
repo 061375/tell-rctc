@@ -1,11 +1,12 @@
 .header {
-    background: url('/_/assets/header.jpg') no-repeat center;
+    //background: url('/_/assets/header.jpg') no-repeat center;
     .logo {
         position: relative;
         z-index: 999;
         .normal {
             position: absolute;
-            left: 1.4%;
+            //left: 1.4%;
+            left: 0;
             width: 21%;
             display: block;
             @include break (415px){
@@ -24,7 +25,7 @@
     }
     .title {
         float: right;
-        color: #fff;
+        color: #245ca9;
         width: 72%;
         margin: 0 35px 0 20px;
         @include break (415px){
@@ -32,7 +33,7 @@
             margin: 0;
         }
         h1 {
-            margin: 20px 0 0 30px;
+            margin: 20px 0 0 50px;
             font-weight: normal;
             padding: 0;
             letter-spacing: 2px;
@@ -51,7 +52,7 @@
             }
         }
         h2 {
-            margin: 0 0 0 29px;
+            margin: 0 0 0 50px;
             letter-spacing: 3.7px;
             font-size: 3em;
             @include break (811px){
@@ -68,9 +69,9 @@
             }
         }
         h3 {
-            margin: 10px 0 15px 30px;
+            margin: 0px 0 10px 50px;
             font-weight: normal;
-            font-size: 2em;
+            font-size: 1.5em;
             @include break (811px){
                 font-size: 1.5em;
             }
@@ -82,6 +83,7 @@
             }
         }
         .hr {
+            display: none;
             width: 90%;
             margin-left: 28px;
             @include break (415px){
