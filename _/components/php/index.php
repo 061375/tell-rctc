@@ -1,8 +1,8 @@
 <?php
-//define('PDIR','/Applications/MAMP/htdocs/tellrctc/blank_project/');
-define('PDIR','/var/www/html/tell-rctc/');
+define('PDIR','/Applications/MAMP/htdocs/tell-rctc/');
+//define('PDIR','/var/www/html/tell-rctc/');
 //define('PURL','http://192.168.1.159/tellrctc/blank_project');
-define('PURL','http://192.168.1.159');
+define('PURL','http://tellrctc.localhost');
 ini_set('display_errors', 1); 
 error_reporting(E_ALL);
 /**

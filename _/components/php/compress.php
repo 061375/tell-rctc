@@ -31,6 +31,7 @@ function simpleCurl($url,$post,$code = false,$header = array('Expect:'))
     $output = curl_exec($ch);
     if($errno = curl_errno($ch)) {
         $error_message = curl_strerror($errno);
+        echo "<script>alert('error');</script>";
         return "cURL error ({$errno}):\n {$error_message}";
     }
     if (true === $code) {

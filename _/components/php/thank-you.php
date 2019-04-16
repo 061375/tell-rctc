@@ -1,6 +1,6 @@
 <?php
-define('PDIR','/Applications/MAMP/htdocs/tellrctc/blank_project/');
-define('PURL','http://localhost/tellrctc/blank_project');
+define('PDIR','/Applications/MAMP/htdocs/tell-rctc/');
+define('PURL','http://tellrctc.localhost');
 ini_set('display_errors', 1); 
 error_reporting(E_ALL);
 /**
@@ -80,7 +80,13 @@ error_reporting(E_ALL);
   </head>
   <body itemscope itemtype="https://schema.org/WebPage">
     <div class="container">
-        <img src="/_/assets/thank-you.jpg?u=<?php echo date('is',strtotime('now')); ?>" alt="Thank You for Submitting from RCTC" class="thank-you" />  
+        <img src="/_/assets/TellRCTC_thankyou.jpg?u=<?php echo date('is',strtotime('now')); ?>" alt="Thank You for Submitting from RCTC" class="thank-you" usemap="#thanks" />
+        <map name="thanks">
+          <area shape="rect" coords="0,250,250,300" target="_blank" rel="noopener" href="http://rebootmycommute.org" alt="#rebootmy commute">
+          <area shape="rect" coords="530,280,850,320" target="_blank" rel="noopener" href="http://rebootmycommute.org" alt="rebootmycommute.org">
+          <area shape="rect" coords="230,500,440,560" target="_blank" rel="noopener" href="http://rctc.org" alt="rctc.org">
+          <area shape="rect" coords="460,500,760,560" target="_blank" rel="noopener" href="http://rebootmycommute.org" alt="rebootmycommute.org">
+        </map>  
     </div>
     <!-- SCHEMA -->
     <?php include('schema.org.php'); ?>
